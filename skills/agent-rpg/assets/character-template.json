@@ -1,0 +1,19 @@
+{
+  "name": "Player",
+  "archetype": "Adventurer",
+  "drive": "",
+  "flaw": "",
+  "hp": {
+    "current": 20,
+    "max": 20
+  },
+  "sanity": {
+    "current": 50,
+    "max": 50
+  },
+  "stats": {},
+  "resources": {},
+  "statuses": {},
+  "inventory": [],
+  "quests": {}
+}
