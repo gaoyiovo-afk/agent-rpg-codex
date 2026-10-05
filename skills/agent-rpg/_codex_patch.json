@@ -1,0 +1,32 @@
+{
+  "localVersion": "1.1.0",
+  "adaptedAt": "2026-10-05",
+  "upstream": {
+    "publisher": "xhrisfu",
+    "slug": "agent-rpg",
+    "version": "1.0.1",
+    "source": "https://clawhub.ai/xhrisfu/skills/agent-rpg",
+    "downloadSha256": "DDFFD35F5B846683FDDC887F499A7232CE2919FF96B0689E7C913A3BFD3E1DFE"
+  },
+  "originalFileSha256": {
+    "SKILL.md": "EF6F8D6C92FE9345BAEA495F4B021CF6593E8EE682F43EC8308B61A27836BCD5",
+    "scripts/context.py": "C4DDBD210274F202B13D10CEF1BC4E9EDB07E4FC9D3909BE22E66EF7BDB54293",
+    "scripts/dice.py": "DB5385412FF90A8F27F2011763BB005FA2BBCD7B7FAEA3E61072238D439E069A",
+    "skill-card.md": "F237B57D77CED6B759A1878D8AB77C4F61B487222D10EBEA717CECF102616193"
+  },
+  "changes": [
+    "Validated campaign IDs and enforced save-root containment",
+    "Added UTF-8 and atomic JSON persistence",
+    "Added campaign listing, ZIP snapshots, complete state retrieval, and scene, resource, status, NPC, clock, and quest commands",
+    "Added HP and sanity clamping and overwrite protection",
+    "Added strict structured dice output, D20 advantage rules, and D100 target outcomes",
+    "Reworked instructions for Codex path portability, resume behavior, player agency, and end-of-session saves",
+    "Added standard-library regression tests",
+    "Added cross-process campaign locking and monotonic state revisions",
+    "Marked campaign content as untrusted narrative data and added player-safe state views",
+    "Added strict schema, size, nesting, string, non-finite number, and Windows reserved-name validation",
+    "Made journal writes atomic and bounded, with streaming tail reads",
+    "Rejected symlink and reparse-point core files and contained snapshot paths",
+    "Added pre-force snapshots and exact destructive-operation confirmation"
+  ]
+}
