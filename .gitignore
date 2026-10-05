@@ -1,0 +1,11 @@
+memory/rpg/
+**/_snapshots/
+*.zip
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
