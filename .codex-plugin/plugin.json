@@ -1,0 +1,13 @@
+{
+  "name": "agent-rpg-codex",
+  "version": "1.1.0",
+  "description": "Run persistent text RPG campaigns with safe local saves, structured dice, NPC and quest tracking, escalation clocks, and separate GM/player views.",
+  "author": {
+    "name": "gaoyiovo-afk",
+    "url": "https://github.com/gaoyiovo-afk"
+  },
+  "homepage": "https://github.com/gaoyiovo-afk/agent-rpg-codex",
+  "repository": "https://github.com/gaoyiovo-afk/agent-rpg-codex",
+  "license": "MIT-0",
+  "skills": "./skills/"
+}
